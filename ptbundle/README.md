@@ -1,11 +1,11 @@
 # ptbundle - HTTP/2 Performance Testing Bundle
-Alpined-based image with h2load, K6, and iperf3 installed. A convenience bundle to execute performance testing in 
-Kubernetes cluster.
+Alpined-based image with h2load, K6, iperf3, curl, and tcpdump installed. A convenience bundle to execute performance 
+testing on Kubernetes.
 
 See: 
-- https://nghttp2.org/documentation/h2load-howto.html
-- https://docs.k6.io/docs
-- https://iperf.fr/iperf-doc.php
+- h2load: https://nghttp2.org/documentation/h2load-howto.html
+- K6: https://docs.k6.io/docs
+- iperf3: https://iperf.fr/iperf-doc.php
 
 # Usage
 `docker run -it azriazhar/ptbundle`
